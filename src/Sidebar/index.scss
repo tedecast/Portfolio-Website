@@ -82,14 +82,20 @@ nav {
   }
 
   a.about-link {
-    &::after {
-      content: 'ABOUT';
+    &:after {
+      content: 'ABOUT'
     }
   }
 
   a.contact-link {
-    &::after {
-      content: 'CONTACT';
+    &:after {
+      content: 'CONTACT'
+    }
+  }
+
+  a.active {
+    svg {
+      color: #7df9ff;
     }
   }
 }

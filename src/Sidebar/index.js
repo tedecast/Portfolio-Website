@@ -13,16 +13,26 @@ const Sidebar = () => (
     <h1 className="tedecast">Tedecast</h1>
 
     <nav>
-        <NavLink exact="true" activeclassname="active" to="/">
-            <FontAwesomeIcon icon={faHome} color="#ff66ff"/>
-        </NavLink>
-        <NavLink exact="true" activeclassname="active" className="about-link" to="/about">
-            <FontAwesomeIcon icon={faUser} color="#ff66ff"/>
-        </NavLink>
-        <NavLink exact="true" activeclassname="active" className="contact-link" to="/contact">
-            <FontAwesomeIcon icon={faEnvelope} color="#ff66ff"/>
-        </NavLink>
+      <NavLink exact="true" activeClassName="active" to="/">
+        <FontAwesomeIcon icon={faHome} color="#ff66ff" />
+      </NavLink>
+      <NavLink
+        exact="true"
+        activeClassName="active"
+        className="about-link"
+        to="/about"
+      >
+        <FontAwesomeIcon icon={faUser} color="#ff66ff" />
+      </NavLink>
+      <NavLink
+        exact="true"
+        activeClassName="active"
+        className="contact-link"
+        to="/contact"
+      >
+        <FontAwesomeIcon icon={faEnvelope} color="#ff66ff" />
+      </NavLink>
     </nav>
   </div>
 )
-export default Sidebar
+export default Sidebar;
