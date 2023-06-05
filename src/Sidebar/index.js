@@ -33,27 +33,25 @@ const Sidebar = () => (
       >
         <FontAwesomeIcon icon={faEnvelope} color="#ff66ff" />
       </NavLink>
+
+      <a
+        target="_blank"
+        rel="noreferrer"
+        href="https://www.linkedin.com/in/teresa-de-castro/"
+        className="linkedin-link"
+      >
+        <FontAwesomeIcon icon={faLinkedin} color="#ff66ff" />
+      </a>
+
+      <a
+        target="_blank"
+        rel="noreferrer"
+        href="https://github.com/tedecast"
+        className="github-link"
+      >
+        <FontAwesomeIcon icon={faGithub} color="#ff66ff" />
+      </a>
     </nav>
-    <ul>
-      <li>
-        <a
-          target="_blank"
-          rel="noreferrer"
-          href="https://www.linkedin.com/in/teresa-de-castro/"
-        >
-          <FontAwesomeIcon icon={faLinkedin} color="#ff66ff" />
-        </a>
-      </li>
-      <li>
-        <a
-          target="_blank"
-          rel="noreferrer"
-          href="https://github.com/tedecast"
-        >
-          <FontAwesomeIcon icon={faGithub} color="#ff66ff"/>
-        </a>
-      </li>
-    </ul>
   </div>
 )
-export default Sidebar
+export default Sidebar;

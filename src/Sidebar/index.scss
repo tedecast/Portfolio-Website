@@ -12,7 +12,6 @@
     color: #ff66ff;
     text-shadow: -5px 0px 0px #ffff66;
     font-size: 100px;
-    // text-align: center;
     margin-left: 35px;
     margin-top: 3px;
   }
@@ -83,13 +82,25 @@ nav {
 
   a.about-link {
     &:after {
-      content: 'ABOUT'
+      content: 'ABOUT';
     }
   }
 
   a.contact-link {
     &:after {
-      content: 'CONTACT'
+      content: 'CONTACT';
+    }
+  }
+
+  a.linkedin-link {
+    &:after {
+      content: 'LINKEDIN';
+    }
+  }
+
+  a.github-link {
+    &:after {
+      content: 'GITHUB';
     }
   }
 
@@ -99,29 +110,3 @@ nav {
     }
   }
 }
-
-
-ul {
-    position: absolute;
-    bottom: 20px;
-    width: 100%;
-    display: block;
-    padding: 0;
-    list-style: none;
-    text-align: center;
-    margin: 0;
-    
-
-    li {
-        a {
-            padding: 7px 0;
-            display: block;
-            font-size: 20px;
-            line-height: 16px; 
-
-            &:hover svg {
-                color: #ffff66;
-            }
-        }
-    }
-  }
