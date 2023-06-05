@@ -18,11 +18,43 @@
   }
 
   .tedecast {
-    font-family: 'Helvetica-Neue';
+    font-family: sans-serif;
     color: #ffff66;
     text-decoration: none;
     font-size: 17px;
     text-align: center;
     margin-top: -85px;
   }
+}
+
+nav {
+    display: block;
+    text-align: center;
+    position: absolute;
+    height: 210px;
+    top: 50%;
+    margin-top: -120px;
+    width: 100%;
+
+    a {
+        font-size: 22px;
+        color: #ffff66;
+        display: block;
+        line-height: 51px;
+        height: 51px;
+        position: relative;
+        text-decoration: none;
+
+        i {
+            transition: all 0.3s ease-out;
+        }
+
+        &:hover {
+            color: #7df9ff;
+
+            svg {
+                opacity: 0;
+            }
+        }
+    }
 }

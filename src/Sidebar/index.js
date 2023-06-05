@@ -1,6 +1,8 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './index.scss'
 // import Portrait from '../assets/images/self-portrait.png';
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
+import { faEnvelope, faHome, faUser } from '@fortawesome/free-solid-svg-icons'
 
 const Sidebar = () => (
   <div className="nav-bar">
@@ -9,6 +11,18 @@ const Sidebar = () => (
     </Link>
     <h1 className="t-logo">T</h1>
     <h1 className="tedecast">Tedecast</h1>
+
+    <nav>
+        <NavLink exact="true" activeclassname="active" to="/">
+            <FontAwesomeIcon icon={faHome} color="#ff66ff"/>
+        </NavLink>
+        <NavLink exact="true" activeclassname="active" className="about-link" to="/about">
+            <FontAwesomeIcon icon={faUser} color="#ff66ff"/>
+        </NavLink>
+        <NavLink exact="true" activeclassname="active" className="contact-link" to="/contact">
+            <FontAwesomeIcon icon={faEnvelope} color="#ff66ff"/>
+        </NavLink>
+    </nav>
   </div>
 )
 export default Sidebar
