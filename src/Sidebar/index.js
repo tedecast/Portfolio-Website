@@ -3,6 +3,7 @@ import './index.scss'
 // import Portrait from '../assets/images/self-portrait.png';
 import { Link, NavLink } from 'react-router-dom'
 import { faEnvelope, faHome, faUser } from '@fortawesome/free-solid-svg-icons'
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 const Sidebar = () => (
   <div className="nav-bar">
@@ -33,6 +34,26 @@ const Sidebar = () => (
         <FontAwesomeIcon icon={faEnvelope} color="#ff66ff" />
       </NavLink>
     </nav>
+    <ul>
+      <li>
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://www.linkedin.com/in/teresa-de-castro/"
+        >
+          <FontAwesomeIcon icon={faLinkedin} color="#ff66ff" />
+        </a>
+      </li>
+      <li>
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://github.com/tedecast"
+        >
+          <FontAwesomeIcon icon={faGithub} color="#ff66ff"/>
+        </a>
+      </li>
+    </ul>
   </div>
 )
-export default Sidebar;
+export default Sidebar
