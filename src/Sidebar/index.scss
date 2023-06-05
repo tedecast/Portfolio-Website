@@ -1,0 +1,28 @@
+.nav-bar {
+  background: #331600;
+  width: 120px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 3;
+  min-height: 500px;
+
+  .t-logo {
+    font-family: 'Coolvetica';
+    color: #ff66ff;
+    text-shadow: -5px 0px 0px #ffff66;
+    font-size: 100px;
+    // text-align: center;
+     margin-left: 35px;
+    margin-top: 3px;
+  }
+
+  .tedecast {
+    font-family: 'Helvetica-Neue';
+    color: #ffff66;
+    text-decoration: none;
+    font-size: 17px;
+    text-align: center;
+    margin-top: -85px;
+  }
+}
