@@ -1,0 +1,17 @@
+.home-page {
+    
+  .text-zone {
+    position: absolute;
+    left: 15%;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .t-logo {
+    font-family: 'Coolvetica';
+    color: #ff66ff;
+    text-shadow: -5px 0px 0px #ffff66;
+    font-size: 100px;
+    margin-left: 35px;
+    margin-top: -100px;
+  }
+}
