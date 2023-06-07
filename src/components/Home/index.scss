@@ -14,10 +14,7 @@
     color: #ff66ff;
     text-shadow: -5px 0px 0px #ffff66;
     font-size: 100px;
-    margin-left: 15px;
-    margin-top: -100px;
     opacity: 0;
-    height: auto;
     animation: rotateIn 1s linear both;
     animation-delay: 1.4s;
   }
@@ -28,4 +25,10 @@
     font-family: 'Coolvetica';
     font-weight: 5;
   }
+}
+
+h2 {
+    color: #331600;
+    margin-left: -18px;
+    margin-top: -50px;
 }
