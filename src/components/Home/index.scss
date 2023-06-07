@@ -13,16 +13,17 @@
     font-family: 'Coolvetica';
     color: #ff66ff;
     text-shadow: -5px 0px 0px #ffff66;
-    font-size: 100px;
+    font-size: 10rem;
     opacity: 0;
     animation: rotateIn 1s linear both;
     animation-delay: 1.4s;
+    line-height: 0.5em;
   }
-  .eresa {
+  .landing-text {
     color: 	#ffff66;
-    font-size: 53px;
+    font-size: 8rem;
     margin-left: -18px;
-    font-family: 'Coolvetica';
+    font-family: 'Karla', sans-serif;
     font-weight: 100;
   }
 }

@@ -6,10 +6,10 @@ const Home = () => {
     <>
       <div className="container home-page">
         <div className="text-zone">
-          <h1 className="eresa">
-            Hi, <br/>I'm
+          <h1 className="landing-text">
+            Hi, <br/>I'm&nbsp;
             <span className="t-logo">T</span>
-            <span className="eresa">eresa</span>
+            <span className="landing-text">erri</span>
             <br />
           </h1>
           <h2>Full-Stack Developer</h2>
