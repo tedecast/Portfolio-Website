@@ -1,5 +1,5 @@
 .home-page {
-    
+
   .text-zone {
     position: absolute;
     left: 15%;
@@ -14,17 +14,21 @@
     color: #ff66ff;
     text-shadow: -5px 0px 0px #ffff66;
     font-size: 10rem;
-    margin-left: 0.25em;
     margin-top: -0.05em;
+    margin-left: -2rem;
     line-height: 0em;
   }
 
   .landing-text {
     color: 	#ffff66;
     font-size: 8rem;
-    margin-left: -18px;
+    margin-left: 0.02em;
     font-family: 'Karla', sans-serif;
-    font-weight: 100;
+    font-weight: 500;
+  }
+
+  .erri {
+    margin-left: -10px;
   }
 }
 

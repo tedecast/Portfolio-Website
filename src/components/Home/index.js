@@ -10,9 +10,9 @@ const Home = () => {
           <h1 className="landing-text">
             Hi, <br />
             I'm
-            {/* &nbsp; used for space*/}
+            &nbsp;
             <span className="t-logo">T</span>
-            <span className="landing-text">erri</span>
+            <span className='erri'>erri</span>
             <span className='emoji'>{emoji}</span>
             <br />
           </h1>
