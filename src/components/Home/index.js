@@ -2,14 +2,18 @@ import { Link } from 'react-router-dom'
 import './index.scss'
 
 const Home = () => {
+  const emoji = '\u{2728}'
   return (
     <>
       <div className="container home-page">
         <div className="text-zone">
           <h1 className="landing-text">
-            Hi, <br/>I'm&nbsp;
+            Hi, <br />
+            I'm
+            {/* &nbsp; used for space*/}
             <span className="t-logo">T</span>
             <span className="landing-text">erri</span>
+            <span className='emoji'>{emoji}</span>
             <br />
           </h1>
           <h2>Full-Stack Developer</h2>

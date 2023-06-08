@@ -14,11 +14,11 @@
     color: #ff66ff;
     text-shadow: -5px 0px 0px #ffff66;
     font-size: 10rem;
-    opacity: 0;
-    animation: rotateIn 1s linear both;
-    animation-delay: 1.4s;
-    line-height: 0.5em;
+    margin-left: 0.25em;
+    margin-top: -0.05em;
+    line-height: 0em;
   }
+
   .landing-text {
     color: 	#ffff66;
     font-size: 8rem;
@@ -32,4 +32,9 @@ h2 {
     color: #331600;
     margin-left: -18px;
     margin-top: -50px;
+}
+.emoji {
+  font-size: 4rem;
+  position: absolute;
+  margin-top: 3.5rem;
 }
