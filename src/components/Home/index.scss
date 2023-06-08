@@ -1,5 +1,4 @@
 .home-page {
-
   .text-zone {
     position: absolute;
     left: 15%;
@@ -15,32 +14,27 @@
     text-shadow: -5px 0px 0px #ffff66;
     font-size: 10rem;
     margin-top: -0.05em;
-    margin-left: -2rem;
+    margin-left: 2rem;
     line-height: 0em;
   }
 
   .landing-text {
-    color: 	#ffff66;
+    color: #ffff66;
     font-size: 8rem;
     margin-left: 0.02em;
     font-family: 'Karla', sans-serif;
     font-weight: 500;
   }
-
-  .erri {
-    margin-left: -10px;
-  }
 }
 
 h2 {
-    color: #331600;
-    margin-left: 0.2em;
-    margin-top: -2em;
-    font-size: 3rem;
-    color: 	#7df9ff;
-    font-weight: 100;
-    letter-spacing: 0.1em;
-    animation: fadeIn 1s 1.8s backwards;
+  margin-left: 0.2em;
+  margin-top: -2em;
+  font-size: 3rem;
+  color: #7df9ff;
+  font-weight: 100;
+  letter-spacing: 0.1em;
+  animation: fadeIn 1s 1.8s backwards;
 }
 .emoji {
   font-size: 4rem;
