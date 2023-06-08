@@ -39,9 +39,32 @@ h2 {
     font-size: 3rem;
     color: 	#7df9ff;
     font-weight: 100;
+    letter-spacing: 0.1em;
+    animation: fadeIn 1s 1.8s backwards;
 }
 .emoji {
   font-size: 4rem;
   position: absolute;
   margin-top: 3.5rem;
+}
+
+.flat-button {
+  color: #ffff66;
+  font-size: 1.8rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+  margin-left: 0.2em;
+  padding: 0.4em 0.5em;
+  border: 0.1em solid #ffff66;
+  margin-top: -2;
+  float: left;
+  animation: fadeIn 1s 2.5s backwards;
+  border-radius: 1em;
+  white-space: nowrap;
+
+  &:hover {
+    background: #ffff66;
+    color: #7df9ff;
+  }
 }
