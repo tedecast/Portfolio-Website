@@ -24,18 +24,21 @@
     margin-left: 0.02em;
     font-family: 'Karla', sans-serif;
     font-weight: 500;
+    
   }
 }
 
 .job-title {
   font-family: 'Hind', sans-serif;
   margin-left: 0.2em;
-  margin-top: -4em;
-  font-size: 2.1rem;
+  margin-top: -3em;
+  margin-bottom: 1em;
+  font-size: 3rem;
   color: #7df9ff;
-  font-weight: 200;
+  font-weight: 400;
   letter-spacing: 0.32em;
   animation: fadeIn 1s 1.8s backwards;
+  
 }
 .emoji {
   font-size: 4rem;
@@ -57,12 +60,15 @@
   animation: fadeIn 1s 2.5s backwards;
   border-radius: 1em;
   white-space: nowrap;
+  transition: 0.5s;
 
   &:hover {
     background: #ffff66;
     color: #7df9ff;
   }
 }
+
+// Animated text
 .text-animate {
   display: inline-block;
   opacity: 0;
