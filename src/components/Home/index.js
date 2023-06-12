@@ -1,12 +1,21 @@
 import { Link } from 'react-router-dom'
 import './index.scss'
 import AnimatedLetters from '../AnimatedLetters'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 
 const Home = () => {
   const emoji = '\u{2728}'
   const [letterClass, setLetterClass] = useState('text-animate')
   const nameArray = ['e', 'r', 'r', 'i']
+
+  useEffect(() => {
+    const timeoutId = setTimeout(() => {
+      setLetterClass('text-animate-hover')
+    }, 4000)
+    return () => {
+      clearTimeout(timeoutId)
+    }
+  }, [])
 
   return (
     <>
