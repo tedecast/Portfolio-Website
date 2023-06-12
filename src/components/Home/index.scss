@@ -62,4 +62,29 @@ h2 {
     color: #7df9ff;
   }
 }
+.text-animate {
+  display: inline-block;
+  opacity: 0;
+  animation: bounceIn 1s 1s;
+  animation-fill-mode: forwards;
+  min-width: 0.05em;
+
+}
+
+.text-animate-hover {
+  min-width: 10px;
+  display: inline-block;
+  animation-fill-mode: both;
+
+  &:hover {
+      animation: rubberBand 1s;
+      color: #7df9ff;
+  }
+}
+
+@for $i from 1 through 30 {
+  .text-animate._#{$i} {
+      animation-delay: #{$i / 10}s
+  }
+}
 

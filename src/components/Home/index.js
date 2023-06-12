@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import './index.scss'
-import AnimatedLetters from '../AnimatedLetters'
+// import AnimatedLetters from '../AnimatedLetters'
 import { useEffect, useState } from 'react'
 
 const Home = () => {
@@ -27,16 +27,16 @@ const Home = () => {
             <br />
             <span className={`${letterClass} _13`}>I'</span>
             <span className={`${letterClass} _14`}>m</span>
-            <span className="t-logo">T</span>
+            <span className={`t-logo ${letterClass} _15`}>T</span>
             {nameArray.map((letter, index) => (
               <span
                 key={index}
-                className={`${letterClass} erri _${index + 15}`}
+                className={`${letterClass} erri _${index + 16}`}
               >
                 {letter}
               </span>
             ))}
-            <span className="emoji">{emoji}</span>
+            <span className={`emoji ${letterClass} erri _20` }>{emoji}</span>
             <br />
           </h1>
           <h2>Web Developer</h2>
