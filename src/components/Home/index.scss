@@ -44,7 +44,7 @@
 .emoji {
   font-size: 4rem;
   position: absolute;
-  margin-top: 3.5rem;
+  margin-top: 4.5rem;
 }
 
 .flat-button {
@@ -59,7 +59,7 @@
   border: 0.1em solid #ffff66;
   margin-top: -0.5em;
   float: left;
-  animation: fadeIn 1s 2.5s backwards;
+  animation: fadeIn 1.5s 3.5s backwards;
   border-radius: 1em;
   white-space: nowrap;
   transition: 0.5s;
@@ -104,4 +104,17 @@
   position: absolute;
   top: -7.5em;
   left: 55%;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  animation: fade-in 1.5s 4s forwards;
+
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1
+  }
 }

@@ -60,7 +60,7 @@ const Home = () => {
             CONTACT ME
           </Link>
         </div>
-        <img className="display-photo" src={Portrait} alt="portrait" />
+        <img className="display-photo fade-in" src={Portrait} alt="portrait" />
         {/* <DisplayPhoto /> */}
       </div>
     </>
