@@ -7,10 +7,8 @@ const Home = () => {
   const emoji = '\u{2728}'
   const [letterClass, setLetterClass] = useState('text-animate')
   const nameArray = ['e', 'r', 'r', 'i']
-  const jobTitle = 'Web Developer'
-  const jobArray = jobTitle
-    .split('')
-    .map((letter) => (letter === ' ' ? '\u00A0' : letter))
+  const jobTitle = "Web Developer"
+  const jobArray = jobTitle.split('').map((letter) => letter === ' ' ? '\u00A0' : letter)
 
   useEffect(() => {
     const timeoutId = setTimeout(() => {
@@ -40,16 +38,17 @@ const Home = () => {
                 {letter}
               </span>
             ))}
-            <span className={`emoji ${letterClass} name-label _20`}>
-              {emoji}
-            </span>
+            <span className={`emoji ${letterClass} name-label _20` }>{emoji}</span>
             <br />
           </h1>
-
+         
           <div className="job-title">
-            <br />
-            {jobArray.map((letter, index) => (
-              <span key={index} className={`${letterClass} name-label _21`}>
+          <br />
+          {jobArray.map((letter, index) => (
+              <span
+                key={index}
+                className={`${letterClass} name-label _${index + 21}`}
+              >
                 {letter}
               </span>
             ))}
