@@ -12,15 +12,16 @@
     font-family: 'Coolvetica';
     color: #ff66ff;
     text-shadow: -5px 0px 0px #ffff66;
-    font-size: 10rem;
-    margin-top: -0.05em;
+    font-size: 11rem;
+    margin-top: -0.06em;
     margin-left: 2rem;
     line-height: 0em;
   }
 
   .landing-text {
+    margin-top: 0.6em;
     color: #ffff66;
-    font-size: 8rem;
+    font-size: 9rem;
     margin-left: 0.02em;
     font-family: 'Karla', sans-serif;
     font-weight: 500;
@@ -33,7 +34,7 @@
   margin-left: 0.2em;
   margin-top: -3em;
   margin-bottom: 1em;
-  font-size: 3rem;
+  font-size: 4rem;
   color: #7df9ff;
   font-weight: 400;
   letter-spacing: 0.32em;
@@ -47,15 +48,16 @@
 }
 
 .flat-button {
+  font-family: 'Karla', sans-serif;
   color: #ffff66;
-  font-size: 1.8rem;
+  font-size: 2.5rem;
   font-weight: 600;
   letter-spacing: 0.1em;
   text-decoration: none;
   margin-left: 0.2em;
   padding: 0.4em 0.5em;
   border: 0.1em solid #ffff66;
-  margin-top: -2;
+  margin-top: -0.5em;
   float: left;
   animation: fadeIn 1s 2.5s backwards;
   border-radius: 1em;
@@ -95,3 +97,11 @@
   }
 }
 
+.display-photo {
+  z-index: 0;
+  width: 45em;
+  height: 60em;
+  position: absolute;
+  top: -7.5em;
+  left: 55%;
+}

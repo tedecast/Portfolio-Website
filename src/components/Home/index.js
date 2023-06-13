@@ -1,7 +1,9 @@
 import { Link } from 'react-router-dom'
 import './index.scss'
-// import AnimatedLetters from '../AnimatedLetters'
 import { useEffect, useState } from 'react'
+// import DisplayPhoto from './DisplayPhoto/displayphoto';
+// import DisplayPhoto from './DisplayPhoto'
+import Portrait from './../../assets/images/Self-Portrait.png'
 
 const Home = () => {
   const emoji = '\u{2728}'
@@ -58,6 +60,8 @@ const Home = () => {
             CONTACT ME
           </Link>
         </div>
+        <img className="display-photo" src={Portrait} alt="portrait" />
+        {/* <DisplayPhoto /> */}
       </div>
     </>
   )

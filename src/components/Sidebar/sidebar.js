@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './sidebar.scss'
-// import Portrait from '../assets/images/self-portrait.png';
+// import Portrait from '../../assets/images/Self-Portrait.png';
 import { Link, NavLink } from 'react-router-dom'
 import { faEnvelope, faHome, faUser } from '@fortawesome/free-solid-svg-icons'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
