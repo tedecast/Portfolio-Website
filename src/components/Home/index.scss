@@ -70,7 +70,7 @@
   }
 }
 
-// Animated text
+// Animation
 .text-animate {
   display: inline-block;
   opacity: 0;
@@ -116,5 +116,13 @@
   }
   100% {
     opacity: 1
+  }
+}
+
+// Mobile adjustments
+
+@media (max-width:740px) {
+  .landing-text {
+    font-size: 2rem;
   }
 }

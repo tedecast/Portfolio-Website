@@ -123,11 +123,12 @@ nav {
 .toggle-button .bar {
   height: 0.25em;
   width: 100%;
-  background-color:	#7df9ff;
+  background-color: #7df9ff;
   border-radius: 1em;
 }
 
-@media (max-width: 738px) {
+// Mobile changes
+@media (max-width: 740px) {
   .toggle-button {
     display: flex;
   }
@@ -137,9 +138,24 @@ nav {
   }
 
   .navbar {
+    display: flex;
+    width: 10em;
     background: #331600;
     display: flex;
     align-items: center;
     position: fixed;
+
+    .t-logo {
+      margin-left: 0.3em;
+    }
+    .tedecast {
+      font-size: 2rem;
+      margin-left: -3.8em;
+      margin-top: 3em;
+    }
+  }
+
+  .toggle-button{
+    top: 10em;
   }
 }

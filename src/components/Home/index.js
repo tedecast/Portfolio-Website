@@ -61,7 +61,6 @@ const Home = () => {
           </Link>
         </div>
         <img className="display-photo fade-in" src={Portrait} alt="portrait" />
-        {/* <DisplayPhoto /> */}
       </div>
     </>
   )
