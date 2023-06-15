@@ -1,8 +1,6 @@
 .home-page {
   .text-zone {
-    position: absolute;
-    left: 15%;
-    top: 40%;
+    margin: auto;
     transform: translateY(-50%);
     width: 40%;
     max-height: 90%;
@@ -98,7 +96,6 @@
   z-index: 0;
   width: 45em;
   height: 60em;
-  position: absolute;
   top: -7.5em;
   left: 55%;
   opacity: 0;
@@ -118,12 +115,15 @@
 // Mobile adjustments
 
 @media (max-width: 740px) {
+  body {
+    width: 100vw;
+  }
   .home-page {
     .hi-text {
       position: relative;
       margin-left: 1.9em;
       margin-right: -1.9em;
-  }
+    }
     .landing-text {
       position: absolute;
       margin-left: 1em;
@@ -143,12 +143,12 @@
       margin-top: 9.8em;
       font-size: 1.5rem;
       margin-right: -9em;
-      margin-left: 3.7em;      
+      margin-left: 3.7em;
     }
     .flat-button {
       position: absolute;
       font-size: 1.5rem;
-     left: 5em;
+      left: 5em;
       top: 13.6em;
     }
     .display-photo {
