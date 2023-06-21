@@ -63,7 +63,7 @@ nav {
     &:after {
       content: '';
       font-size: 1rem;
-      letter-spacing: 2px;
+      letter-spacing: 0.2em;
       position: absolute;
       bottom: 2.5em;
       display: block;
@@ -118,7 +118,12 @@ nav {
   }
 
   .navbar-links {
-    display: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    justify-content: space-evenly;
+    margin-left: 3em;
   }
 
   .navbar {
@@ -130,6 +135,8 @@ nav {
     display: flex;
     align-items: center;
     position: fixed;
+    bottom: 0;
+    left: 0;
 
     .t-logo {
       margin-left: 0.3em;
