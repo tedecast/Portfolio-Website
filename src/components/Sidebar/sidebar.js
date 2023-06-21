@@ -11,11 +11,6 @@ const Sidebar = () => (
       {/* <img src={Portrait} alt="logo" /> */}
     </Link>
     <h1 className="t-logo">T</h1>
-    <a href="#" class="toggle-button">
-      <span class="bar"></span>
-      <span class="bar"></span>
-      <span class="bar"></span>
-    </a>
     <h1 className="tedecast">Tedecast</h1>
 
     <nav className='navbar-links'>
